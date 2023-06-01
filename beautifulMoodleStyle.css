@@ -25333,6 +25333,14 @@ body.format-topcoll.editing.jsenabled #region-main ul.ctopics .moodle-actionmenu
   text-decoration: none
 }
 
+.course-content ul.ctopics li.section .content .toggle, .course-content ul.ctopics li.section .content.sectionhidden {
+  background-color: unset !important;
+}
+
+.course-content ul.ctopics li.section .content .toggle, .course-content ul.ctopics li.section .content.sectionhidden:focus {
+  background-color: rgba(0, 0, 0, 0.01) !important;
+}
+
 .course-content ul.ctopics li.section .content .toggledsection {
   min-height: 30px
 }
